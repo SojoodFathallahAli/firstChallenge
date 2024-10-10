@@ -1,0 +1,92 @@
+body{
+    background-color: #f7f0eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.main{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.imgCon img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.text{
+    padding: 20px;
+    flex: 1;
+}
+
+.perfume{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.name{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 15px;
+
+}
+
+.priceCon{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.price1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2d5c3f;
+    margin-right: 10px;
+}
+
+.price2{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.add{
+    background-color: #2d5c3f;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+.add:hover{
+    background-color: #23703f;
+}
+
+
